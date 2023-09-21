@@ -1,0 +1,99 @@
+.navbar{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    column-gap: 10px;
+}
+.title{
+    margin-top:20px;
+    font-size: larger;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    border-radius: 10px;
+}
+.features{
+    display:flex;
+    list-style: none;
+    column-gap: 20px;
+   
+}
+.user-login{
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+.para{
+    text-align: center;
+    font-size:larger;
+}
+.span{
+    color:white;
+}
+.fields{
+    display: grid;
+    list-style: none;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.featureslist{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 5px 5px;
+    padding: 10px 5px;
+    background-color: black;
+    color: white;
+}
+.DeveloperRoadmap{
+    background-color:slategrey
+}
+.features-ind{
+    margin-top: 10px;
+}
+.login{
+    margin-top: 8px;
+}
+.search{
+    border-style:solid;
+    border-radius:10px;
+    border-color: black;
+    height: 40px;
+}
+.signup{
+    border-style:solid;
+    border-radius:10px;
+    height: 40px;
+}
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.RoleBasedRoadmaps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.SkillBasedRoadmaps{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.BestPractices{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.subtitle{
+    background-color: white;
+    margin: 0px;
+    border-radius: 800px;
+}
